@@ -1,0 +1,26 @@
+2018-07-16 11:55:17.977  INFO 15548 --- [main] br.com.gava.EdMapApplication             : Starting EdMapApplication on gava-OptiPlex-5040 with PID 15548 (/home/gava/workspace/EdMap/SpringBoot-InitProject/target/classes started by gava in /home/gava/workspace/EdMap/SpringBoot-InitProject)
+2018-07-16 11:55:17.981 DEBUG 15548 --- [main] br.com.gava.EdMapApplication             : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-16 11:55:17.983  INFO 15548 --- [main] br.com.gava.EdMapApplication             : No active profile set, falling back to default profiles: default
+2018-07-16 11:55:19.854 ERROR 15548 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2018-07-16 11:57:35.913  INFO 15813 --- [main] br.com.gava.EdMapApplication             : Starting EdMapApplication on gava-OptiPlex-5040 with PID 15813 (/home/gava/workspace/EdMap/SpringBoot-InitProject/target/classes started by gava in /home/gava/workspace/EdMap/SpringBoot-InitProject)
+2018-07-16 11:57:35.916 DEBUG 15813 --- [main] br.com.gava.EdMapApplication             : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-16 11:57:35.917  INFO 15813 --- [main] br.com.gava.EdMapApplication             : No active profile set, falling back to default profiles: default
+2018-07-16 11:57:38.463  INFO 15813 --- [main] br.com.gava.EdMapApplication             : Started EdMapApplication in 2.8 seconds (JVM running for 3.037)

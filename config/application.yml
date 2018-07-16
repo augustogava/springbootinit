@@ -1,0 +1,37 @@
+spring:
+  ds-default:
+    driverClassName: com.mysql.jdbc.Driver
+    jdbcUrl: jdbc:mysql://172.16.12.75:3306/flex4
+    testWhileIdle: true
+    timeBetweenEvictionRunsMillis: 60000
+    validationQuery: SELECT 1
+    username: flexvision
+    password: f1l2e3x4
+    maxPoolSize: 50
+    minPoolSize: 10
+    maxStatements: 100
+    testConnectionOnCheckout: false
+    acquireIncrement: 1
+    idleConnectionTestPeriod: 300
+server:
+  port: 8090
+logging:
+  file: logs/application.log
+  level:
+    ROOT: ERROR
+    org.apache.http: ERROR
+    br.com.gava: DEBUG
+
+rest:
+  edmap:
+    enabled: true
+    
+schedule:
+    editor: 
+        enabled: true
+        delay: 0
+        pooling: 60
+    viewer: 
+        enabled: false
+        delay: 0
+        pooling: 60
